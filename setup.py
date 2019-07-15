@@ -4,7 +4,6 @@ setup(name='mypkg',
       description='some awesome thing',
       packages=['mypkg'],
       python_requires= '>=3',
-      install_requires=[],
       entry_points={'console_scripts' : [
               'helloworld = mypkg.hello:world',
           ]})

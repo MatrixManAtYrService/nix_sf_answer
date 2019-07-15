@@ -6,5 +6,5 @@ with import <nixpkgs> {};
       src = ./.;
     };
 
-  in python37.withPackages (ps: [mypkg ps.pandas ps.numpy])
+  in python37.withPackages (ps: [mypkg ps.pandas])
 ).env
